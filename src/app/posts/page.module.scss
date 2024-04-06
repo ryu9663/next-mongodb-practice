@@ -1,6 +1,10 @@
 .list_wrapper {
   background: rgb(249, 250, 255);
   padding: 10px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .list_item {
@@ -9,6 +13,7 @@
   padding: 20px;
   margin-bottom: 5px;
   box-shadow: rgb(224, 224, 224) 0px 2px 4px 0px;
+  list-style: none;
 }
 
 .list_titme {

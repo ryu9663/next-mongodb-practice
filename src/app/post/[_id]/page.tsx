@@ -1,6 +1,7 @@
 import { Post } from "@/types";
 import { connectDB } from "@/utils/database";
 import { ObjectId } from "mongodb";
+import Link from "next/link";
 
 interface PostPageParams {
   params: { _id: string };
@@ -14,6 +15,7 @@ export default async function PostPage({ params }: PostPageParams) {
   return (
     <div>
       <h2>상세페이지임</h2>
+      <Link href="/posts">리스트</Link>
       <h3>{post.title}</h3>
       <p>{post.content}</p>
     </div>

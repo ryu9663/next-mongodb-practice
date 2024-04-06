@@ -9,6 +9,9 @@ export default async function Home() {
           <li>
             <Link href="/posts">리스트</Link>
           </li>
+          <li>
+            <Link href="/form">글쓰러가기</Link>
+          </li>
         </ul>
       </nav>
     </div>
