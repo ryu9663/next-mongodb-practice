@@ -16,7 +16,6 @@ export const Profile = ({ user }: ProfileType) => {
     typeof profile.image === "string";
   if (isValidUser) {
     const { name, email, image } = profile;
-    console.log(image);
     return (
       <section>
         <img

@@ -1,6 +1,6 @@
 import styles from "./page.module.scss";
 
-export default function Write() {
+export default async function Write() {
   return (
     <div className={styles.form_wrapper}>
       <h2>글작성</h2>
